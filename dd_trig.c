@@ -197,7 +197,6 @@ DoubleDouble dd_tan(DoubleDouble x) {
         return (DoubleDouble){0.0, 0.0};
     }
     
-    // tan(x) = sin(x) / cos(x)
     DoubleDouble sin_x = dd_sin(x);
     DoubleDouble cos_x = dd_cos(x);
     
